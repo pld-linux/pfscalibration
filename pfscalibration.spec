@@ -12,7 +12,7 @@ URL:		http://pfstools.sourceforge.net/pfscalibration.html
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	libstdc++-devel
-BuildRequires:	libtool
+BuildRequires:	libtool >= 2:1.5
 BuildRequires:	pfstools-devel >= 1.0
 BuildRequires:	pkgconfig
 Requires:	pfstools >= 1.0
