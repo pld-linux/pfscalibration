@@ -1,0 +1,11 @@
+--- pfscalibration-1.5/configure.ac.orig	2011-03-11 11:32:24.000000000 +0100
++++ pfscalibration-1.5/configure.ac	2012-02-04 07:09:20.523781656 +0100
+@@ -13,7 +13,7 @@
+ dnl
+ dnl Default setup
+ dnl
+-CXXFLAGS="-O3 -funroll-loops -fstrength-reduce -fschedule-insns2 -felide-constructors -frerun-loop-opt -fexceptions -fno-strict-aliasing -fexpensive-optimizations -ffast-math -pipe"
++CXXFLAGS="$CXXFLAGS -fstrength-reduce -frerun-loop-opt -fno-strict-aliasing -ffast-math -pipe"
+ 
+ dnl
+ dnl Templates for autoheader defines
